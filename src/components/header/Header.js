@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import logo from "../../images/logos/logo_1.svg";
+import logo from "../../images/logos/logo.svg";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Header = (props) => {
-  const [searchActive, setSearchState] = useState(false);
+  // const [searchActive, setSearchState] = useState(false);
   const [mobailActive, setMobailState] = useState(false);
 
   const ClickHandler = () => {
     window.scrollTo(10, 0);
   };
 
-  const SubmitHandler = (e) => {
-    e.preventDefault();
-  };
+  // const SubmitHandler = (e) => {
+  //   e.preventDefault();
+  // };
 
   const [isSticky, setSticky] = useState(false);
 
@@ -35,7 +35,7 @@ const Header = (props) => {
     };
   }, []);
 
-  const { carts } = props;
+  // const { carts } = props;
 
   return (
     <div>
@@ -94,7 +94,7 @@ const Header = (props) => {
 
                       <li className="dropdown">
                         <Link onClick={ClickHandler} to="/contact">
-                          Contacts
+                          Contacts Us
                         </Link>
                         {/* <ul className="dropdown_menu dropdown_menu-2">
                           <li className="dropdown_item-3">
@@ -144,7 +144,7 @@ const Header = (props) => {
                       </li> */}
                       <li className="dropdown">
                         <Link onClick={ClickHandler} to="/about">
-                          About
+                          About Us
                         </Link>
                         <ul className="dropdown_menu dropdown_menu-2">
                           <li className="dropdown_item-1">
@@ -200,7 +200,7 @@ const Header = (props) => {
                           </li>
                           <li className="dropdown_item-5">
                             <Link onClick={ClickHandler} to="/contact">
-                              Contacts
+                              Contacts Us
                             </Link>
                           </li>
                         </ul>
@@ -209,7 +209,7 @@ const Header = (props) => {
                   </nav>
                 </div>
                 <div className="header__right">
-                  <div className="header__actions">
+                  {/* <div className="header__actions">
                     <ul>
                       <li>
                         <Link onClick={ClickHandler} to="/cart">
@@ -245,15 +245,15 @@ const Header = (props) => {
                         </span>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div className="header__button">
                     <Link
                       onClick={ClickHandler}
                       className="btn btn--styleOne btn--secondary it-btn"
-                      to="/donation-listing"
+                      to="/contact"
                     >
-                      <span className="btn__text">donate now</span>
-                      <i className="fa-solid fa-heart btn__icon"></i>
+                      <span className="btn__text">Get Quote</span>
+                      <i className="fa-solid fa-shield-alt btn__icon"></i>
                       <span className="it-btn__inner">
                         <span className="it-btn__blobs">
                           <span className="it-btn__blob"></span>
@@ -308,7 +308,7 @@ const Header = (props) => {
           <div className="header__right">
             <div className="header__actions">
               <ul>
-                <li>
+                {/* <li>
                   <Link onClick={ClickHandler} to="/products">
                     <svg
                       width="25"
@@ -323,8 +323,8 @@ const Header = (props) => {
                       />
                     </svg>
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <span onClick={() => setSearchState(!searchActive)}>
                     <svg
                       width="23"
@@ -339,7 +339,7 @@ const Header = (props) => {
                       />
                     </svg>
                   </span>
-                </li>
+                </li> */}
                 <li>
                   <button
                     className={`headerBurgerMenu__button sidebarBtn ${
@@ -428,10 +428,10 @@ const Header = (props) => {
             <Link
               onClick={ClickHandler}
               className="btn btn--styleOne btn--secondary it-btn"
-              to="/donation-listing"
+              to="/contact"
             >
-              <span className="btn__text">Contact Us</span>
-              <i className="fa-solid fa-heart btn__icon"></i>
+              <span className="btn__text">Get Quote</span>
+              <i className="fa-solid fa-file-signature btn__icon"></i>
               <span className="it-btn__inner">
                 <span className="it-btn__blobs">
                   <span className="it-btn__blob"></span>
@@ -472,7 +472,7 @@ const Header = (props) => {
       </div>
 
       {/* search */}
-      <div
+      {/* <div
         id="template-search"
         className={`template-search ${searchActive ? "open" : ""}`}
       >
@@ -489,7 +489,7 @@ const Header = (props) => {
             <i className="fas fa-search"></i>
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

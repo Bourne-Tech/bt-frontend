@@ -2639,6 +2639,9 @@ html {
 .header--styleFive.sticky-on.sticky .header__logo__image {
   mix-blend-mode: difference;
 }
+.header__logo__image {
+  margin-left: 30%;
+}
 
 /* 3.3 Hero */
 
