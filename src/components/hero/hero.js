@@ -23,11 +23,11 @@ const Hero = () => {
                                 <div>
                                     <span className="hero__title hero__title--small wow animate__fadeInUp animate__animated"
                                         data-wow-duration="1200ms" data-wow-delay="200ms">
-                                        <i className="fa-solid fa-heart btn__icon"></i>We Beleve That
+                                        <i className="fa-solid fa-heart btn__icon"></i>We Believe That
                                     </span>
                                 </div>
                                 <div>
-                                    <h1 className="hero__title hero__title--big wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="300ms">Do good For Others</h1>
+                                    <h1 className="hero__title hero__title--big wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="300ms">Committed to Sustainability</h1>
                                 </div>
                                 <div>
                                     <p className="hero__text wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="400ms">We help nonprofits from Afghanistan to Zimbabwe (and hundreds of places in between)

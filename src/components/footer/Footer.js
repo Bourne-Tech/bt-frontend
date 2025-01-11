@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import shape from '../../images/shapes/footerShape2.png'
-import logo from '../../images/logos/logo_2.svg'
+import logo from '../../images/logos/logo2.svg'
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
@@ -68,10 +68,7 @@ const Footer = (props) => {
                                     </div>
                                     <div className="footer__menu">
                                         <ul>
-                                            <li><Link onClick={ClickHandler} to="/contact">Policy Priorities</Link></li>
                                             <li><Link onClick={ClickHandler} to="/contact">Careers</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donation-listing">Internships</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donation-listing">Financial Reports</Link></li>
                                             <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
                                         </ul>
                                     </div>
@@ -84,10 +81,7 @@ const Footer = (props) => {
                                     </div>
                                     <div className="footer__menu">
                                         <ul>
-                                            <li><Link onClick={ClickHandler} to="/donation-listing">Donate Now</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/products">Store</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/contact">Reports</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/contact">Press Releases</Link></li>
+                                            <li><Link onClick={ClickHandler} to="/get-quote">Get Quote</Link></li>
                                             <li><Link onClick={ClickHandler} to="/contact">Privacy & Policy</Link></li>
                                         </ul>
                                     </div>
@@ -103,8 +97,6 @@ const Footer = (props) => {
                                             <li><Link onClick={ClickHandler} to="/">Home</Link></li>
                                             <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
                                             <li><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/donation-listing">Donation</Link></li>
-                                            <li><Link onClick={ClickHandler} to="/stories">Join Volentter</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -112,7 +104,7 @@ const Footer = (props) => {
                             <div className="col-lg-5 mb-30">
                                 <form action="#" method="post" className="footer__newsletter" onSubmit={SubmitHandler}> 
                                     <div className="footer__title">
-                                        <h2 className="footer__heading text-uppercase text-white">News Latter</h2>
+                                        <h2 className="footer__heading text-uppercase text-white">News Letter</h2>
                                     </div>
                                     <div className="footer__newsletter__formGroup mb-20">
                                         <input type="email" className="footer__newsletter__input" placeholder="Enter mail" />
@@ -121,8 +113,7 @@ const Footer = (props) => {
                                     <div className="footer__newsletter__formGroup">
                                         <input id="agree" type="checkbox" className="footer__newsletter__check form-check-input" />
                                         <label className="footer__newsletter__label" htmlFor="agree">I agree that my submitted data is
-                                            being
-                                            collected and stored.</label>
+                                            being collected and stored.</label>
                                     </div>
                                 </form>
                             </div>
@@ -137,7 +128,7 @@ const Footer = (props) => {
                             </div>
                             <div className="col mb-20">
                                 <div className="footer__copyright pt-20">
-                                    <p className="footer__copyright__text mb-0">Copyright@example 2024 all right receved</p>
+                                    <p className="footer__copyright__text mb-0">Copyright @ Bourne Technology 2025. All Rights Reserved</p>
                                 </div>
                             </div>
                         </div>
