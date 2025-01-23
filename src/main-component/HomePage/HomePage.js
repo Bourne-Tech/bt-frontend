@@ -3,8 +3,8 @@ import Header from '../../components/header/Header';
 import Hero from '../../components/hero/hero';
 import About from '../../components/about/about';
 import Testimonial from '../../components/Testimonial/Testimonial';
-import StoriesSection from '../../components/StoriesSection/StoriesSection';
-import BlogSection from '../../components/BlogSection/BlogSection';
+// import StoriesSection from '../../components/StoriesSection/StoriesSection';
+// import BlogSection from '../../components/BlogSection/BlogSection';
 import PartnerSection from '../../components/PartnerSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
@@ -20,8 +20,8 @@ const HomePage = () => {
                     <Hero />
                     <About />
                     <Testimonial />
-                    <StoriesSection />
-                    <BlogSection />
+                    {/* <StoriesSection /> */}
+                    {/* <BlogSection /> */}
                     <PartnerSection />
                 </main>
                 <Footer />

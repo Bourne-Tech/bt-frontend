@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import hero from '../../images/man/man1.jpg'
+import hero from '../../images/man/robot.jpg'
 import shape1 from '../../images/shapes/shapes1.svg'
 import shape2 from '../../images/shapes/love-shape1.svg'
 import shape3 from '../../images/shapes/love-shape2.svg'
-import shape4 from '../../images/shapes/shapes3.svg'
+import shape4 from '../../images/shapes/shapes5.svg'
 import { Fade, Zoom } from "react-awesome-reveal";
 
 
@@ -27,17 +27,15 @@ const Hero = () => {
                                     </span>
                                 </div>
                                 <div>
-                                    <h1 className="hero__title hero__title--big wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="300ms">Committed to Sustainability</h1>
+                                    <h1 className="hero__title hero__title--big wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="300ms">security drives progress.</h1>
                                 </div>
                                 <div>
-                                    <p className="hero__text wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="400ms">We help nonprofits from Afghanistan to Zimbabwe (and hundreds of places in between)
-                                        access the
-                                        tools, training,</p>
+                                    <p className="hero__text wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="400ms">We bring cybersecurity to the forefront, safeguarding your business while upholding ethical and sustainable practices.</p>
                                 </div>
                                 <div>
-                                    <Link className="btn btn--styleOne btn--primary it-btn wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="500ms" to="/donation-listing">
-                                        <span className="btn__text">join the journey</span>
-                                        <i className="fa-solid fa-heart btn__icon"></i>
+                                    <Link className="btn btn--styleOne btn--primary it-btn wow animate__fadeInUp animate__animated" data-wow-duration="1200ms" data-wow-delay="500ms" to="/contact">
+                                        <span className="btn__text">secure your business</span>
+                                        <i className="fa-solid fa-shield-alt btn__icon"></i>
                                         <span className="it-btn__inner">
                                             <span className="it-btn__blobs">
                                                 <span className="it-btn__blob"></span>
@@ -65,8 +63,8 @@ const Hero = () => {
                         <Zoom triggerOnce={'false'}>
                             <div>
                                 <figure className="hero__figure wow animate__zoomIn animate__animated" data-wow-duration="1200ms" data-wow-delay="600ms">
-                                    <img src={hero} alt="Gainioz Man" className="hero__figure__thumbs" />
-                                    <img className="hero__figure__overlay" src={shape4} alt="Gainioz" />
+                                    <img src={hero} alt="Bourne Man" className="hero__figure__thumbs" />
+                                    <img className="hero__figure__overlay" src={shape4} alt="BourneTech" />
                                 </figure>
                             </div>
                         </Zoom>
