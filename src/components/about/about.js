@@ -57,36 +57,31 @@ const About = (props) => {
                   <div className="sectionTitle mb-20">
                     <span className="sectionTitle__small">
                       <i className="fa-solid fa-shield-alt btn__icon"></i>
-                      about bourne technology
+                      About Bourne Technology
                     </span>
                     <h2 className="sectionTitle__big">
-                      We empower businesses with sustainable and assured cyber
-                      defenses
+                      Sustainable & Assured Cybersecurity
                     </h2>
                   </div>
                   <p className="aboutContent__text">
-                    At Bourne Technology, we merge innovation with
-                    responsibility to create secure digital foundations for
-                    businesses worldwide. Guided by our commitment to
-                    sustainability, we bring cybersecurity to the forefront,
-                    safeguarding what matters most while upholding ethical and
-                    sustainable practices. With global expertise and local
-                    assurance, our comprehensive suite of professional services
-                    caters to diverse industries, ensuring tailored solutions
-                    that protect and empower your business. By combining
-                    cutting-edge security with sustainable strategies, we secure
-                    your digital future with trust, precision, and purpose.
+                    Bourne Technology blends innovation with responsibility to
+                    build secure digital foundations. Committed to
+                    sustainability, we provide tailored cybersecurity solutions
+                    that protect businesses worldwide while upholding ethical
+                    practices. With global expertise and local assurance, we
+                    empower organizations with cutting-edge security for a
+                    resilient digital future.
                   </p>
                   <span className="aboutContent__quote">
                     We can help your business grow securely and sustainably.
                   </span>
                   <Link
                     onClick={ClickHandler}
-                    className="btn btn--styleOne btn--secondary it-btn"
-                    to="/contact"
+                    className="btn btn--styleOne btn--black it-btn"
+                    to="/about"
                   >
-                    <span className="btn__text">Contact Us</span>
-                    <i className="fa-solid fa-phone-alt btn__icon"></i>
+                    <span className="btn__text">Find out more</span>
+                    {/* <i className="fa-solid fa-users btn__icon"></i> */}
                     <span className="it-btn__inner">
                       <span className="it-btn__blobs">
                         <span className="it-btn__blob"></span>

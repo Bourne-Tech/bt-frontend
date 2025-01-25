@@ -8,26 +8,28 @@ import Testimonial from '../../components/Testimonial/Testimonial';
 import PartnerSection from '../../components/PartnerSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
+import MissionVision from '../../components/MissionVision/MissionVision';
 
 
 const HomePage = () => {
 
     return (
-        <Fragment>
-            <div>
-                <Header />
-                <main className="page_content">
-                    <Hero />
-                    <About />
-                    <Testimonial />
-                    {/* <StoriesSection /> */}
-                    {/* <BlogSection /> */}
-                    <PartnerSection />
-                </main>
-                <Footer />
-                <Scrollbar />
-            </div>
-        </Fragment>
-    )
+      <Fragment>
+        <div>
+          <Header />
+          <main className="page_content">
+            <Hero />
+            <About />
+            <MissionVision />
+            <Testimonial />
+            {/* <StoriesSection /> */}
+            {/* <BlogSection /> */}
+            <PartnerSection />
+          </main>
+          <Footer />
+          <Scrollbar />
+        </div>
+      </Fragment>
+    );
 };
 export default HomePage;
