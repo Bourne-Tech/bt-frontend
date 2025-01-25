@@ -99,7 +99,7 @@ const FeaturesSection = (props) => {
                             <div className="mb-3 col-lg-6">
                               <Link
                                 onClick={ClickHandler}
-                                className="btn btn--styleOne btn--primary it-btn"
+                                className="btn btn--styleOne btn--black it-btn"
                                 to={features.featureLink}
                               >
                                 <span className="btn__text">Learn More</span>

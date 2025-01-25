@@ -249,7 +249,7 @@ const Header = (props) => {
                   <div className="header__button">
                     <Link
                       onClick={ClickHandler}
-                      className="btn btn--styleOne btn--secondary it-btn"
+                      className="btn btn--styleOne btn--black it-btn"
                       to="/contact"
                     >
                       <span className="btn__text">Get Quote</span>

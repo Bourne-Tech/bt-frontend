@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Bg from '../../images/bg/pageBreadcumbBg1.jpg'
+import Bg from '../../images/about/about-banner.png'
 import shape1 from '../../images/shapes/pagebreadcumbShapeTop.svg'
 import shape2 from '../../images/shapes/pagebreadcumbShapeBottom.svg'
 
@@ -34,10 +34,10 @@ const PageTitle = (props) => {
                 </Link>
             </div>
             <div className="sectionShape sectionShape--top">
-                <img src={shape1} alt="Gainioz"/>
+                <img src={shape1} alt="BourneTech"/>
             </div>
             <div className="sectionShape sectionShape--bottom">
-                <img src={shape2} alt="Gainioz"/>
+                <img src={shape2} alt="BourneTech"/>
             </div>
             <div className="container">
                 <div className="row">
