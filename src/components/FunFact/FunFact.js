@@ -9,14 +9,14 @@ const FunFact = [
     title: "0",
     subTitle: "Mission",
     symbol: "1",
-    des: "Our Mission is to deliver cybersecurity assurance through pedagogical approaches that enhance risk mitigation and promote sustainable business practices.",
+    des: "Our mission is to deliver cybersecurity assurance through pedagogical approaches that enhance risk mitigation and promote sustainable business practices.",
     sclass: "factBlock--one",
   },
   {
     title: "0",
     subTitle: "Vision ",
     symbol: "2",
-    des: "To be a global leader in cybersecurity education and assurance, empowering businesses to proactively mitigate risks and build sustainable, resilient operations for a secure future.",
+    des: "Our vision is to be a global leader in cybersecurity education and assurance, empowering businesses to proactively mitigate risks and build sustainable, resilient operations for a secure future.",
     sclass: "factBlock--two",
   },
 ];
