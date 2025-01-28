@@ -26,7 +26,7 @@ const AboutTab = (props) => {
                 <Nav tabs className="nav justify-content-center">
                   <NavItem>
                     <NavLink
-                      className={classnames({ active: activeTab === "1" })}
+                      className={classnames({ active: activeTab === "2" })}
                       onClick={() => {
                         toggle("2");
                       }}
@@ -36,7 +36,7 @@ const AboutTab = (props) => {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({ active: activeTab === "2" })}
+                      className={classnames({ active: activeTab === "3" })}
                       onClick={() => {
                         toggle("3");
                       }}
@@ -46,7 +46,7 @@ const AboutTab = (props) => {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      className={classnames({ active: activeTab === "3" })}
+                      className={classnames({ active: activeTab === "1" })}
                       onClick={() => {
                         toggle("1");
                       }}
