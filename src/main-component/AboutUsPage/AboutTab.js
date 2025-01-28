@@ -26,6 +26,16 @@ const AboutTab = (props) => {
                 <Nav tabs className="nav justify-content-center">
                   <NavItem>
                     <NavLink
+                      className={classnames({ active: activeTab === "1" })}
+                      onClick={() => {
+                        toggle("1");
+                      }}
+                    >
+                      Our Core Values
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
                       className={classnames({ active: activeTab === "2" })}
                       onClick={() => {
                         toggle("2");
@@ -44,18 +54,61 @@ const AboutTab = (props) => {
                       Driven By You
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className={classnames({ active: activeTab === "1" })}
-                      onClick={() => {
-                        toggle("1");
-                      }}
-                    >
-                      Our Core Values
-                    </NavLink>
-                  </NavItem>
                 </Nav>
                 <TabContent activeTab={activeTab} className="pt-55">
+                  <TabPane tabId="1">
+                    <div className="row">
+                      <div className="col-lg-10 mx-auto">
+                        <div className="aboutDetails text-center">
+                          <p className="aboutDetailsText mb-20">
+                            At Bourne Technology, our values define who we are
+                            and guide everything we do.
+                          </p>
+                          <p className="aboutDetailsText mb-20">
+                            <b>Synergy</b> is at the core of our relationships
+                            with clients. We believe in collaboration, working
+                            side by side to create solutions that drive success
+                            and empower businesses to thrive in an ever-changing
+                            digital world.
+                          </p>
+                          <p className="aboutDetailsText mb-20">
+                            <b>Resilience</b> fuels our approach to
+                            cybersecurity. We focus on building long-term
+                            security solutions that not only protect but also
+                            adapt and evolve, ensuring businesses are optimized
+                            for future challenges and opportunities.
+                          </p>
+                          <p className="aboutDetailsText mb-20">
+                            <b>Authenticity</b> is the foundation of our ethics.
+                            We are committed to transparency, integrity, and
+                            delivering honest, reliable solutions that align
+                            with our clients’ best interests. These core values
+                            are what set us apart and shape the future we’re
+                            creating together.
+                          </p>
+                        </div>
+                        <div className="aboutDetailsThumbs pt-50">
+                          <div className="row g-0 align-items-center">
+                            <div className="col-lg-4">
+                              <div className="aboutDetailsThumb">
+                                <img src={aImg1} alt="About BourneTech" />
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="aboutDetailsThumb aboutDetailsThumb--big">
+                                <img src={aImg2} alt="About BourneTech" />
+                              </div>
+                            </div>
+                            <div className="col-lg-4">
+                              <div className="aboutDetailsThumb">
+                                <img src={aImg3} alt="About BourneTech" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </TabPane>
                   <TabPane tabId="2">
                     <div className="row">
                       <div className="col-lg-10 mx-auto">
@@ -124,59 +177,6 @@ const AboutTab = (props) => {
                             success drives our innovation, and we are dedicated
                             to providing the expertise and support needed to
                             build a secure and resilient future.
-                          </p>
-                        </div>
-                        <div className="aboutDetailsThumbs pt-50">
-                          <div className="row g-0 align-items-center">
-                            <div className="col-lg-4">
-                              <div className="aboutDetailsThumb">
-                                <img src={aImg1} alt="About BourneTech" />
-                              </div>
-                            </div>
-                            <div className="col-lg-4">
-                              <div className="aboutDetailsThumb aboutDetailsThumb--big">
-                                <img src={aImg2} alt="About BourneTech" />
-                              </div>
-                            </div>
-                            <div className="col-lg-4">
-                              <div className="aboutDetailsThumb">
-                                <img src={aImg3} alt="About BourneTech" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </TabPane>
-                  <TabPane tabId="1">
-                    <div className="row">
-                      <div className="col-lg-10 mx-auto">
-                        <div className="aboutDetails text-center">
-                          <p className="aboutDetailsText mb-20">
-                            At Bourne Technology, our values define who we are
-                            and guide everything we do.
-                          </p>
-                          <p className="aboutDetailsText mb-20">
-                            <b>Synergy</b> is at the core of our relationships
-                            with clients. We believe in collaboration, working
-                            side by side to create solutions that drive success
-                            and empower businesses to thrive in an ever-changing
-                            digital world.
-                          </p>
-                          <p className="aboutDetailsText mb-20">
-                            <b>Resilience</b> fuels our approach to
-                            cybersecurity. We focus on building long-term
-                            security solutions that not only protect but also
-                            adapt and evolve, ensuring businesses are optimized
-                            for future challenges and opportunities.
-                          </p>
-                          <p className="aboutDetailsText mb-20">
-                            <b>Authenticity</b> is the foundation of our ethics.
-                            We are committed to transparency, integrity, and
-                            delivering honest, reliable solutions that align
-                            with our clients’ best interests. These core values
-                            are what set us apart and shape the future we’re
-                            creating together.
                           </p>
                         </div>
                         <div className="aboutDetailsThumbs pt-50">
