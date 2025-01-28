@@ -28,7 +28,7 @@ const AboutTab = (props) => {
                     <NavLink
                       className={classnames({ active: activeTab === "1" })}
                       onClick={() => {
-                        toggle("1");
+                        toggle("2");
                       }}
                     >
                       Bourne Experts
@@ -38,7 +38,7 @@ const AboutTab = (props) => {
                     <NavLink
                       className={classnames({ active: activeTab === "2" })}
                       onClick={() => {
-                        toggle("2");
+                        toggle("3");
                       }}
                     >
                       Driven By You
@@ -48,7 +48,7 @@ const AboutTab = (props) => {
                     <NavLink
                       className={classnames({ active: activeTab === "3" })}
                       onClick={() => {
-                        toggle("3");
+                        toggle("1");
                       }}
                     >
                       Our Core Values
@@ -56,7 +56,7 @@ const AboutTab = (props) => {
                   </NavItem>
                 </Nav>
                 <TabContent activeTab={activeTab} className="pt-55">
-                  <TabPane tabId="1">
+                  <TabPane tabId="2">
                     <div className="row">
                       <div className="col-lg-10 mx-auto">
                         <div className="aboutDetails text-center">
@@ -104,7 +104,7 @@ const AboutTab = (props) => {
                       </div>
                     </div>
                   </TabPane>
-                  <TabPane tabId="2">
+                  <TabPane tabId="3">
                     <div className="row">
                       <div className="col-lg-10 mx-auto">
                         <div className="aboutDetails text-center">
@@ -148,7 +148,7 @@ const AboutTab = (props) => {
                       </div>
                     </div>
                   </TabPane>
-                  <TabPane tabId="3">
+                  <TabPane tabId="1">
                     <div className="row">
                       <div className="col-lg-10 mx-auto">
                         <div className="aboutDetails text-center">
