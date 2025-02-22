@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
-import Hero from '../../components/hero/hero';
+// import Hero from '../../components/hero/hero';
+import Hero2 from '../../components/hero2/hero2';
 import About from '../../components/about/about';
 import Testimonial from '../../components/Testimonial/Testimonial';
 // import StoriesSection from '../../components/StoriesSection/StoriesSection';
@@ -18,7 +19,8 @@ const HomePage = () => {
         <div>
           <Header />
           <main className="page_content">
-            <Hero />
+            {/* <Hero /> */}
+            <Hero2 />
             <About />
             <MissionVision />
             <Testimonial />

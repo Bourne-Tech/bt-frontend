@@ -11,8 +11,8 @@ const Hero2 = (props) => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-12">
                         <div className="hero__content text-center">
-                            <span className="hero__title hero__title--small">Give your hand</span>
-                            <h1 className="hero__title hero__title--big">To The homeless</h1>
+                            <span className="hero__title hero__title--small">We Believe That</span>
+                            <h1 className="hero__title hero__title--big">Security Drives Progress</h1>
                             <div className="hero__topDown">
                                 <AnchorLink href='#feature' className="btn btn--styleOne btn--icon it-btn">
                                     <svg className="btn__icon" width="10" height="14" viewBox="0 0 10 14" fill="none" xmlns="http://www.w3.org/2000/svg">
