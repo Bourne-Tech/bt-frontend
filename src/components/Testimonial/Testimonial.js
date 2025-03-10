@@ -1,10 +1,10 @@
 import { useRef, useEffect } from 'react';
 import { Navigation } from 'swiper';
-import tImg1 from '../../images/auth/reviewAuth1.png'
-import tImg2 from '../../images/auth/reviewAuth2.png'
-import tImg3 from '../../images/auth/reviewAuth3.png'
-import tImg4 from '../../images/auth/reviewAuth4.png'
-import tImg5 from '../../images/auth/reviewAuth5.png'
+import tImg1 from '../../images/auth/reviewAuth1.jpeg'
+import tImg2 from '../../images/auth/reviewAuth2.jpeg'
+import tImg3 from '../../images/auth/reviewAuth3.jpeg'
+// import tImg4 from '../../images/auth/reviewAuth4.png'
+// import tImg5 from '../../images/auth/reviewAuth5.png'
 import shape1 from '../../images/shapes/testi-shape1.svg'
 import shape2 from '../../images/shapes/testi-shape2.svg'
 import shape3 from '../../images/shapes/testi-shape4.svg'
@@ -19,15 +19,15 @@ import 'swiper/css/navigation';
 const testimonial = [
   {
     id: "01",
-    tImg: tImg1,
+    tImg: tImg3,
     Title: "Reliable Cybersecurity Solutions",
     Des: "Bourne Technology has been instrumental in securing our systems. Their expertise and proactive approach helped us prevent potential threats before they became issues. Highly recommended!",
-    Name: "Claybourn Durham",
-    sub: "IT Director, FinTech Solutions",
+    Name: "Ogechi Eze, MBA",
+    sub: "Business Analyst, FinTech Solutions",
   },
   {
     id: "02",
-    tImg: tImg1,
+    tImg: tImg2,
     Title: "Trusted Security Partner",
     Des: "We needed a cybersecurity firm that understood our startup's challenges. Bourne Technology provided tailored security solutions that gave us peace of mind and compliance with industry standards.",
     Name: "Annie Dieng",
@@ -133,16 +133,16 @@ const Testimonial = () => {
                 </div>
                 <ul className="review__box__images">
                   <li>
-                    <img src={tImg2} alt="Gainioz Reviewer" />
+                    <img src={tImg2} alt="BourneTech Reviewer" />
                   </li>
                   <li>
-                    <img src={tImg3} alt="Gainioz Reviewer" />
+                    <img src={tImg3} alt="BourneTech Reviewer" />
                   </li>
                   <li>
-                    <img src={tImg4} alt="Gainioz Reviewer" />
+                    <img src={tImg1} alt="BourneTech Reviewer" />
                   </li>
                   <li>
-                    <img src={tImg5} alt="Gainioz Reviewer" />
+                    <img src={tImg2} alt="BourneTech Reviewer" />
                   </li>
                 </ul>
                 <div className="reviewblock text-center">
