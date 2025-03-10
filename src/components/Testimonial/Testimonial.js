@@ -1,8 +1,8 @@
 import { useRef, useEffect } from 'react';
 import { Navigation } from 'swiper';
-import tImg1 from '../../images/auth/reviewAuth1.jpeg'
-import tImg2 from '../../images/auth/reviewAuth2.jpeg'
-import tImg3 from '../../images/auth/reviewAuth3.jpeg'
+import tImg1 from '../../images/auth/reviewAuth1.png'
+import tImg2 from '../../images/auth/reviewAuth2.png'
+import tImg3 from '../../images/auth/reviewAuth3.png'
 // import tImg4 from '../../images/auth/reviewAuth4.png'
 // import tImg5 from '../../images/auth/reviewAuth5.png'
 import shape1 from '../../images/shapes/testi-shape1.svg'

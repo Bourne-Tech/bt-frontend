@@ -228,7 +228,7 @@ const ServiceSection = (props) => {
                   className="btn btn--styleOne btn--black it-btn"
                 >
                   <span className="btn__text">Schedule a call now</span>
-                  <i className="fa-solid fa-heart btn__icon"></i>
+                  <i className="fa-solid fa-phone btn__icon"></i>
                   <span className="it-btn__inner">
                     <span className="it-btn__blobs">
                       <span className="it-btn__blob"></span>
