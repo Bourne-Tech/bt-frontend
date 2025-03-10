@@ -22,7 +22,7 @@ const testimonial = [
     tImg: tImg1,
     Title: "Reliable Cybersecurity Solutions",
     Des: "Bourne Technology has been instrumental in securing our systems. Their expertise and proactive approach helped us prevent potential threats before they became issues. Highly recommended!",
-    Name: "David Reynolds",
+    Name: "Claybourn Durham",
     sub: "IT Director, FinTech Solutions",
   },
   {
@@ -30,7 +30,7 @@ const testimonial = [
     tImg: tImg1,
     Title: "Trusted Security Partner",
     Des: "We needed a cybersecurity firm that understood our startup's challenges. Bourne Technology provided tailored security solutions that gave us peace of mind and compliance with industry standards.",
-    Name: "Jessica Carter",
+    Name: "Annie Dieng",
     sub: "CEO, InnovateTech",
   },
   {
@@ -38,7 +38,7 @@ const testimonial = [
     tImg: tImg1,
     Title: "Rapid Response & Protection",
     Des: "Our organization faced a serious cyber threat, and Bourne Technology responded immediately. Their swift action and expertise saved us from a potential breach. Exceptional service!",
-    Name: "Mark Peterson",
+    Name: "Lekan Raheem",
     sub: "Operations Manager, Secure Nonprofit",
   },
 ];

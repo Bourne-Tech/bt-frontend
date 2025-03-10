@@ -118,9 +118,9 @@ const ContactForm = (props) => {
                 </div>
                 <div className="col-12">
                     <div className="commentsPost__button text-center">
-                        <button type="submit" className="btn btn--styleOne btn--primary it-btn">
+                        <button type="submit" className="btn btn--styleOne btn--black it-btn">
                             <span className="btn__text">Send massage</span>
-                            <i className="fa-solid fa-heart btn__icon"></i>
+                            <i className="fa-solid fa-paper-plane btn__icon"></i>
                             <span className="it-btn__inner">
                                 <span className="it-btn__blobs">
                                     <span className="it-btn__blob"></span>

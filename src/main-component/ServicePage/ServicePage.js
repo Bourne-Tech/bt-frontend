@@ -1,18 +1,21 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import PageTitle from "../../components/pagetitle/PageTitle";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Footer from "../../components/footer/Footer";
-import img1 from "../../images/stories/cyberSecurityConsulting.jpg";
-import img2 from "../../images/stories/securityAwarenessTraining.jpg";
-import img3 from "../../images/stories/eLearning.jpg";
+// import img1 from "../../images/stories/cyberSecurityConsulting.jpg";
+// import img2 from "../../images/stories/securityAwarenessTraining.jpg";
+// import img3 from "../../images/stories/eLearning.jpg";
+
+import ServiceSection from "../../components/ServiceSubSection/ServiceSection";
+
 
 const ServicePage = (props) => {
 
-  const ClickHandler = () => {
-    window.scrollTo(10, 0);
-  };
+  // const ClickHandler = () => {
+  //   window.scrollTo(10, 0);
+  // };
 
   return (
     <Fragment>
@@ -20,7 +23,7 @@ const ServicePage = (props) => {
       <main className="main">
         <PageTitle pageTitle={"Our Services"} pagesub={"Services"} />
 
-        <section className="stories pt-100 pb-20">
+        {/* <section className="stories pt-100 pb-20">
           <div className="container">
             <div className="row">
               <div className="col-lg-11">
@@ -341,7 +344,9 @@ const ServicePage = (props) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <ServiceSection />
       </main>
       <Footer />
       <Scrollbar />

@@ -2984,7 +2984,7 @@ html {
 }
 
 .about--style3 {
-  padding-top: 180px;
+  padding-top: 10px;
 }
 
 .aboutArea--padding {
@@ -3117,6 +3117,8 @@ html {
 }
 
 .joinContent__text {
+  font-size: 15px;
+  font-weight: 500;
   margin-bottom: 35px;
 }
 
@@ -3130,6 +3132,31 @@ html {
   mask-image: url(../images/shapes/joinmaskshape.png);
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;
+}
+
+.serviceSectionLeft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  -webkit-mask-image: url(../images/shapes/joinmaskshape.png);
+  mask-image: url(../images/shapes/joinmaskshape.png);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.serviceSectionRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  -webkit-mask-image: url(../images/shapes/joinmaskshape.png);
+  mask-image: url(../images/shapes/joinmaskshape.png);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  transform: scaleX(-1);
 }
 
 @media (max-width: 1666px) {
@@ -3151,6 +3178,40 @@ html {
 }
 
 .joinSectionThumb img {
+  height: 100%;
+}
+
+@media (max-width: 1666px) {
+  .serviceSectionLeft {
+    max-width: 811px;
+  }
+  .serviceSectionRight {
+    max-width: 811px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .serviceSectionLeft {
+    max-width: 580px;
+  }
+  .serviceSectionRight {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 991px) {
+  .serviceSectionLeft {
+    display: none;
+  }
+  .serviceSectionRight {
+    display: none;
+  }
+}
+
+.serviceSectionLeft img {
+  height: 100%;
+}
+.serviceSectionRight img {
   height: 100%;
 }
 
@@ -6055,7 +6116,7 @@ img.map-about-tab {
 }
 
 .services--style3 {
-  padding-top: 224px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 

@@ -1,36 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import about1 from '../../images/man/about-man-h3.jpg'
 import { Slide } from "react-awesome-reveal";
-import icon1 from '../../images/icons/icon1.svg'
-import icon2 from '../../images/icons/icon2.svg'
-import icon3 from '../../images/icons/icon3.svg'
+import icon1 from "../../images/icons/feature-icon-1.svg";
+import icon2 from "../../images/icons/feature-icon-4.svg";
+import icon3 from "../../images/icons/feature-icon-5.svg";
 
 const Features = [
-    {
-        title: 'together Pledge',
-        des: 'Variations of passages of Lorem Ipsum available, but the majority have suffered alteration.',
-        icon: icon1,
-        width: '80%',
-        duration: 1000,
-    },
-    {
-        title: 'Donate for HOmless',
-        des: 'Variations of passages of Lorem Ipsum available, but the majority have suffered alteration.',
-        icon: icon2,
-        width: '94%',
-        duration: 1200,
-    },
-    {
-        title: 'Fundraise',
-        des: 'Variations of passages of Lorem Ipsum available, but the majority have suffered alteration.',
-        icon: icon3,
-        width: '70%',
-        duration: 1400,
-    },
-
-
-]
+  {
+    title: "Consulting",
+    des: "We help executives optimize cybersecurity and IT infrastructure to reduce costs and maximize efficiency.",
+    icon: icon1,
+    width: "99%",
+    duration: 1000,
+  },
+  {
+    title: "Training",
+    des: "We provide live, tailored cybersecurity training—virtual or in-person—designed for specific organizational departments.",
+    icon: icon2,
+    width: "100%",
+    duration: 1200,
+  },
+  {
+    title: "E-Learning",
+    des: "Our 10-week program enhances C-level leaders' cybersecurity expertise, empowering informed business decisions.",
+    icon: icon3,
+    width: "100%",
+    duration: 1400,
+  },
+];
 
 const About3 = (props) => {
 
@@ -39,8 +36,8 @@ const About3 = (props) => {
     }
 
     return (
-        <section className="about gray-bg about--style3">
-            <div className="aboutThumb3">
+        <section className="about about--style3">
+            {/* <div className="aboutThumb3">
                 <img src={about1} alt="Gainioz About" />
             </div>
             <div className="container">
@@ -124,7 +121,7 @@ const About3 = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="services services--style3">
                 <div className="container">
@@ -132,14 +129,14 @@ const About3 = (props) => {
                         <div className="col-lg-6 mx-auto">
                             <div className="sectionTitle text-center mb-65">
                                 <span className="sectionTitle__small justify-content-center">
-                                    <i className="fa-solid fa-heart btn__icon"></i>
-                                    need your help
+                                    <i className="fa-solid fa-shield btn__icon"></i>
+                                    Do you require our expert help?
                                 </span>
-                                <h2 className="sectionTitle__big">How Can You help?</h2>
+                                <h2 className="sectionTitle__big">Here is how we can help</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="row gx-35 pt-35">
+                    <div className="row gx-35 pt-5">
                         {Features.map((features, fitem) => (
                             <div className="col-lg-4 col-md-6 col-12" key={fitem}>
                                 <Slide direction='up' triggerOnce={'false'} duration={features.duration}>
@@ -152,7 +149,7 @@ const About3 = (props) => {
                                             </div>
                                             <div className="keyFeatureBlock__content">
                                                 <h3 className="keyFeatureBlock__heading">
-                                                    <Link onClick={ClickHandler} className="keyFeatureBlock__heading__link" to="/services">
+                                                    <Link onClick={ClickHandler} className="keyFeatureBlock__heading__link" to="/service">
                                                         {features.title}
                                                     </Link>
                                                 </h3>
