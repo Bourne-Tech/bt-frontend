@@ -21,6 +21,7 @@ import BlogPage from '../BlogPage/BlogPage';
 import BlogDetails from '../BlogDetails/BlogDetails';
 import EventSinglePage from '../EventSinglePage/EventSinglePage';
 import ContactPage from '../ContactPage/ContactPage';
+import CareersPage from '../CareersPage/CareersPage';
 
 const AllRoute = () => {
 
@@ -50,6 +51,7 @@ const AllRoute = () => {
           <Route path="service-single/:slug" element={<ServiceSinglePage />} />
           <Route path="contact" element={<ContactPage />} />   
           <Route path="blog-details/:slug" element={<BlogDetails />} />
+          <Route path="career" element={<CareersPage />} />
         </Routes>
       </BrowserRouter>
 

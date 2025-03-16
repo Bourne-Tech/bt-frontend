@@ -68,7 +68,7 @@ const Footer = (props) => {
                                     </div>
                                     <div className="footer__menu">
                                         <ul>
-                                            <li><Link onClick={ClickHandler} to="/contact">Careers</Link></li>
+                                            <li><Link onClick={ClickHandler} to="/career">Careers</Link></li>
                                             <li><Link onClick={ClickHandler} to="/contact">Contact Us</Link></li>
                                         </ul>
                                     </div>
