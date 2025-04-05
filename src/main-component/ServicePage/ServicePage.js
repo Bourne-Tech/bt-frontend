@@ -104,10 +104,11 @@ const ServicePage = (props) => {
                     </p>
                     <p className="donationDetails__text mb-30">
                       Our services are customized to fit your unique business
-                      needs. We offer a wide range of solutions, including risk
-                      assessments, policy development and implementation, cloud
-                      integration strategies, network architecture enhancements,
-                      and more.
+                      needs. Whether you're looking to optimize your overall IT environment, 
+                      enhance your security posture, or streamline operations. 
+                      We offer a wide range of solutions that includes risk assessments, automation,
+                      policy development and implementation, cloud integration strategies, 
+                      network architecture optimization, and more.
                     </p>
                     <p className="donationDetails__text mb-30">
                       Let’s strengthen your security posture together. Contact
@@ -118,7 +119,7 @@ const ServicePage = (props) => {
                     </h4>
                     <ul>
                       <li>✓ Risk Governance </li>
-                      <li>✓ Foundation building</li>
+                      <li>✓ cloud integration strategies </li>
                       <li>✓ IT architectural design</li>
                     </ul>
                   </div>
@@ -133,7 +134,7 @@ const ServicePage = (props) => {
               <div className="col-lg-11">
                 <div className="serviceDetailsContent">
                   <h2 className="serviceDetailsContent__heading mb-45 text-uppercase">
-                    Security Awareness Training
+                    Security Awareness and IT Training
                   </h2>
                 </div>
               </div>
@@ -162,6 +163,9 @@ const ServicePage = (props) => {
                     </p>
                     <p className="donationDetails__text mb-30">
                       Schedule your training session today!
+                      
+                      For other IT training inquiries
+                      please email us to discuss other options.
                     </p>
                     <h4 className="donationDetails__heading mb-25">
                       Top Features
@@ -169,7 +173,7 @@ const ServicePage = (props) => {
                     <ul>
                       <li>✓ Risk aware culture</li>
                       <li>✓ Live Instructor</li>
-                      <li>✓ Target to audience</li>
+                      <li>✓ Tailored to audience</li>
                     </ul>
                   </div>
                 </div>
@@ -302,11 +306,11 @@ const ServicePage = (props) => {
                     </div>
                     <p className="donationDetails__text storiesDetails__text storiesDetails__text--first mb-30">
                       Our exclusive 10-week online cybersecurity course is
-                      designed specifically for C-suite executives, whether
+                      designed specifically for C-suite executives, who wants to 
+                      strengthen their IT and secuirty knowledge. Whether
                       you're new to technology or have prior experience. This
-                      program builds confidence in making informed IT and
-                      cybersecurity decisions that impact your organization’s
-                      success.
+                      progrem equips leaders with the skills and confidence to make informed, sustainable 
+                      business decisions that drives long term success and resilience.
                     </p>
                     <p className="donationDetails__text mb-30">
                       With a maximum of seven attendees per cohort, we ensure
@@ -337,7 +341,7 @@ const ServicePage = (props) => {
                     <ul>
                       <li>✓ Optimization </li>
                       <li>✓ Mentorship </li>
-                      <li>✓ Customizable approach</li>
+                      <li>✓ Customizable approach </li>
                     </ul>
                   </div>
                 </div>

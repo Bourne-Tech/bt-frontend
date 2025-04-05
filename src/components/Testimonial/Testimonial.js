@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { Navigation } from 'swiper';
 import tImg1 from '../../images/auth/reviewAuth1.png'
-import tImg2 from '../../images/auth/reviewAuth2.png'
+import tImg2 from '../../images/auth/reviewAuth4.png'
 import tImg3 from '../../images/auth/reviewAuth3.png'
 // import tImg4 from '../../images/auth/reviewAuth4.png'
 // import tImg5 from '../../images/auth/reviewAuth5.png'
@@ -29,9 +29,9 @@ const testimonial = [
     id: "02",
     tImg: tImg2,
     Title: "Trusted Security Partner",
-    Des: "We needed a cybersecurity firm that understood our startup's challenges. Bourne Technology provided tailored security solutions that gave us peace of mind and compliance with industry standards.",
-    Name: "Annie Dieng",
-    sub: "CEO, InnovateTech",
+    Des: "We needed a cybersecurity firm that understood our startup's challenges. Bourne Technology provided tailored security solutions that gave us peace of mind and compliance within our plaform that offered safe and secure ways to sell our Art peices.",
+    Name: "Robert Warner SR",
+    sub: "CEO, Bob Art Collages",
   },
   {
     id: "03",
@@ -141,9 +141,7 @@ const Testimonial = () => {
                   <li>
                     <img src={tImg1} alt="BourneTech Reviewer" />
                   </li>
-                  <li>
-                    <img src={tImg2} alt="BourneTech Reviewer" />
-                  </li>
+               
                 </ul>
                 <div className="reviewblock text-center">
                   <span className="reviewblock__quoteIcon__two">
