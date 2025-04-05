@@ -36,17 +36,15 @@ const ServiceSection = (props) => {
                 <p className="joinContent__text">
                   Our expert consultants work closely with executives and
                   business leaders to refine technology architecture and
-                  strengthen cybersecurity strategies. By conducting
-                  comprehensive assessments and delivering tailored solutions,
-                  we help organizations establish a resilient security
-                  foundation through a holistic, business-driven approach. Our
-                  services are designed to meet your unique needs, offering
-                  solutions such as risk assessments, policy development and
-                  implementation, cloud integration strategies, and network
-                  architecture enhancements.
+                  strengthen cybersecurity strategies. Our services are customized to 
+                  fit your unique business needs. Whether you're looking to optimize 
+                  your overall IT environment, enhance your security posture, or streamline 
+                  operations. We offer a wide range of solutions that includes risk assessments, 
+                  automation, policy development and implementation, cloud integration strategies, 
+                  network architecture optimization, and more.
                   <br />
                   <br />
-                  Let’s fortify your security posture together — schedule a
+                  Let’s fortify your IT and security posture together — schedule a
                   consultation!
                   <br />
                   <br />
@@ -115,7 +113,7 @@ const ServiceSection = (props) => {
                     <div className="sectionTitle mb-20">
                       <span className="sectionTitle__small justify-content-start">
                         <i className="fa-solid fa-key btn__icon"></i>
-                        Security Awareness Training
+                        Security Awareness and IT Training
                       </span>
                     </div>
                   </div>
@@ -135,9 +133,13 @@ const ServiceSection = (props) => {
                   Schedule your training session today!
                   <br />
                   <br />
+                  For other IT training inquiries
+                  please email us to discuss other options.
+                  <br />
+                  <br />
                   <b>
                     Top Features: ✓ Risk aware culture ✓ Live Instructor ✓
-                    Target to audience
+                    Tailored to audience
                   </b>
                 </p>
                 <Link
@@ -200,18 +202,19 @@ const ServiceSection = (props) => {
                     <div className="sectionTitle mb-20">
                       <span className="sectionTitle__small justify-content-end">
                         <i className="fa-solid fa-laptop btn__icon"></i>
-                        E-Learning
+                        E-Learning Cohort
                       </span>
                     </div>
                   </div>
                 </div>
                 <p className="joinContent__text">
                   Our exclusive 10-week online cybersecurity course is designed
-                  for C-suite executives, whether you're new to technology or
-                  have prior experience. This program builds confidence in
-                  making informed IT and cybersecurity decisions that impact
-                  your organization’s success. With a maximum of seven attendees
-                  per cohort, we provide personalized training and mentorship
+                  for C-suite executives, who wants to 
+                  strengthen their IT and security knowledge. Whether
+                  you're new to technology or have prior experience. This
+                  program equips leaders with the skills and confidence to make informed, sustainable 
+                  business decisions that drives long term success and resilience.
+                  With a maximum of seven attendees per cohort, we provide personalized training and mentorship
                   tailored to your industry’s needs. Throughout the program,
                   you’ll gain insights into industry standards, cybersecurity
                   fundamentals, and best practices, while engaging in hands-on
